@@ -38,7 +38,7 @@ Pozdrawiam Was serdecznie!
 ✅ Zliczanie meczy<br>
 ✅ Zliczanie raportów<br>
 ✅ Podawanie ilości akcji<br>
-✅ Podgląd ostatnio wykonanych aktywności, takich jak: Ostatnio stworzony gracz, Ostatnio zaaktualizowany gracz, Ostatnio stworzony mecz, Ostatnio zaaktualizowany mecz, Ostatnio zaaktualizowany raport<br><br>
+✅ Podgląd ostatnio wykonanych aktywności, takich jak: Ostatnio stworzony gracz, Ostatnio zaaktualizowany gracz, Ostatnio stworzony mecz, Ostatnio zaaktualizowany mecz, Ostatnio zaaktualizowany raport<br>
 
 <i> Moim zdaniem funkcjonalności są intuicyjne. Mam uwagę dotyczącą przycisku "Dodaj gracza", który w mojej opini nie powinien być w linkach pomocniczych, tylko na sidebarze pod przyciskiem "Gracze"</i>
 
