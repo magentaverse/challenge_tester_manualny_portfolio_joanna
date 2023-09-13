@@ -26,19 +26,19 @@ Pozdrawiam Was serdecznie!
 
 <i>Aplikacja posiada szereg funkcjonlności, takich jak</i>
 
-✅ Logowanie i wylogowanie z systemu - aby móc korzystać z aplikacji
-✅ Możliwość zmiany języka z Polskiego na Angielski 
-✅ Możliwość dodania nowego gracza - dodaje nowego gracza do aplikacji, poprzez wypełnienie formularza gracza
-✅ Możliwość dodania linka z filmikiem na YT - możliwość dodania filmiku podczas dodawania nowego gracza
-✅ Wyświetlenie listy graczy - pokazuje nam ile graczy jest aktualnie dodanych
-✅ Filtracja gracza na podstawie wybranych preferencji - pozwala na giltrowanie graczy poprzez określone atrybuty: Imię, nazwisko, Wiek, pozycja, Klub, Rate
-✅ Możliwość wydruku listy graczy
-✅ Możliwość pobrania listy graczy w pliku CSV
-✅ Zliczanie ilości graczy
-✅ Zliczanie meczy
-✅ Zliczanie raportów
-✅ Podawanie ilości akcji
-✅ Podgląd ostatnio wykonanych aktywności, takich jak: Ostatnio stworzony gracz, Ostatnio zaaktualizowany gracz, Ostatnio stworzony mecz, Ostatnio zaaktualizowany mecz, Ostatnio zaaktualizowany raport
+✅ Logowanie i wylogowanie z systemu - aby móc korzystać z aplikacji<br>
+✅ Możliwość zmiany języka z Polskiego na Angielski<br> 
+✅ Możliwość dodania nowego gracza - dodaje nowego gracza do aplikacji, poprzez wypełnienie formularza gracza<br>
+✅ Możliwość dodania linka z filmikiem na YT - możliwość dodania filmiku podczas dodawania nowego gracza<br>
+✅ Wyświetlenie listy graczy - pokazuje nam ile graczy jest aktualnie dodanych<br>
+✅ Filtracja gracza na podstawie wybranych preferencji - pozwala na giltrowanie graczy poprzez określone atrybuty: Imię, nazwisko, Wiek, pozycja, Klub, Rate<br>
+✅ Możliwość wydruku listy graczy<br>
+✅ Możliwość pobrania listy graczy w pliku CSV<br>
+✅ Zliczanie ilości graczy<br>
+✅ Zliczanie meczy<br>
+✅ Zliczanie raportów<br>
+✅ Podawanie ilości akcji<br>
+✅ Podgląd ostatnio wykonanych aktywności, takich jak: Ostatnio stworzony gracz, Ostatnio zaaktualizowany gracz, Ostatnio stworzony mecz, Ostatnio zaaktualizowany mecz, Ostatnio zaaktualizowany raport<br><br>
 
 <i> Moim zdaniem funkcjonalności są intuicyjne. Mam uwagę dotyczącą przycisku "Dodaj gracza", który w mojej opini nie powinien być w linkach pomocniczych, tylko na sidebarze pod przyciskiem "Gracze"</i>
 
