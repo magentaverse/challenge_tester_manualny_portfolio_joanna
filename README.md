@@ -1,6 +1,6 @@
 # TASK 1
 ## Subtask 1:
-**Punkty:**
+**Punkty: 10/10**
 
 ## Subtask 3: Dlaczego zdecydowałem się wziąć udział w wyzwaniu Dare IT Challenge?
 
