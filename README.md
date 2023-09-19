@@ -53,6 +53,10 @@ Pozdrawiam Was serdecznie!
 👉 Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. 
 
 ## TASK 2
+
+# Subtask 1 i 2 
+👉 [Kliknij tutaj 😊](https://drive.google.com/drive/folders/1snzV8IcBCjplSbxOPZC7yczg_8Y6oeDv?usp=drive_link)
+
 # Subtask 3 : Dlaczego piszemy przypadki testowe?
 Testerzy piszą przypadki testowe, aby:
 
