@@ -52,5 +52,31 @@ Pozdrawiam Was serdecznie!
 
 👉 Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. 
 
+## TASK 2
+# Subtask 3 : Dlaczego piszemy przypadki testowe?
+Testerzy piszą przypadki testowe, aby:
+
+✅**Zdefiniować Oczekiwane Zachowanie:** Przypadki testowe opisują, jakie konkretne kroki należy podjąć, aby przetestować daną funkcję lub aspekt oprogramowania. Określają, jakie wyniki powinny być osiągnięte podczas testowania. Dzięki temu można precyzyjnie określić, co oczekuje się od testu.<br>
+
+✅**Dokumentować Proces Testowania:** Przypadki testowe stanowią dokumentację, która pomaga testerom i innym członkom zespołu zrozumieć, jakie testy zostaną przeprowadzone, jakie dane będą używane i jakie wyniki są oczekiwane. To ułatwia zrozumienie i wykonywanie testów przez różnych testerów.<br>
+
+✅**Ułatwiają Automatyzację Testów:** Przypadki testowe są często wykorzystywane do automatyzacji testów. Automatyzacja pozwala na szybkie i powtarzalne wykonywanie testów. Pisząc przypadki testowe, można je łatwiej przekształcić w skrypty automatyzacji.<br>
+
+✅**Śledzenie Postępu Testów:** Przypadki testowe pozwalają śledzić, które testy zostały już wykonane i jakie wyniki uzyskano. To umożliwia ocenę postępu w procesie testowania i identyfikację obszarów, które wymagają dodatkowej uwagi.<br>
+
+✅**Zarządzanie Ryzykiem:** Przypadki testowe pozwalają na koncentrację na kluczowych obszarach oprogramowania i testowanie tych obszarów, które są krytyczne dla funkcjonalności lub które mają historię wcześniejszych problemów.<br>
+
+✅**Weryfikacja Zgodności z Wymaganiami:** Pisząc przypadki testowe, testerzy mogą upewnić się, że oprogramowanie jest zgodne z określonymi wymaganiami i spełnia oczekiwania klienta.<br>
+
+✅**Łatwiejsze Rozwiązywanie Błędów:** Jeśli test wykryje błąd, to przypadki testowe pomagają wskazać, który scenariusz i jakie dane spowodowały problem. To ułatwia deweloperom zrozumienie i naprawienie błędu.<br>
+
+W skrócie, pisanie przypadków testowych pomaga w organizacji i kontrolowaniu procesu testowania, zapewniając lepszą jakość oprogramowania i zmniejszając ryzyko błędów.
+
+
+
+
+
+
+
 
 
