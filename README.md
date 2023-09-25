@@ -76,6 +76,13 @@ Testerzy piszą przypadki testowe, aby:
 
 W skrócie, pisanie przypadków testowych pomaga w organizacji i kontrolowaniu procesu testowania, zapewniając lepszą jakość oprogramowania i zmniejszając ryzyko błędów.
 
+# TASK 3
+## Subtask 1 
+👉 [Kliknij tutaj 😊](https://docs.google.com/spreadsheets/d/1E7mOC44nr_rsmfAjHgEcJGuP4UFl9JiBUO2BoCP3iM4/edit?usp=sharing)
+## Subtask 2 
+👉 [Kliknij tutaj 😊](https://docs.google.com/spreadsheets/d/1LPMfkdv5tilXKjvJOmINctkRZPPAOkAfQaIMD82u3HM/edit#gid=0)
+## Subtask 3 
+👉 [Kliknij tutaj 😊](https://docs.google.com/spreadsheets/d/1ldist0q_1kzRJ5eNglwmTcWBmFiQi8AsFJUlnsVydOI/edit?usp=sharing)
 
 
 
