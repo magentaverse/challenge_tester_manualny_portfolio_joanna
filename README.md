@@ -108,23 +108,23 @@ System filtracji jest bardzo słaby i mało rozwinięty. Nie można filtrować r
 Testowanie aplikacji internetowej (webowej) a natywnej różni się głównie ze względu na rodzaj aplikacji i środowisko, w którym są uruchamiane. Oto niektóre z głównych różnic:
 
 *Platforma docelowa:*
-<i>Aplikacje internetowe działają w przeglądarkach internetowych na różnych platformach (np. przeglądarki internetowe na komputerze, smartfonie lub tablecie).</i>
-<i>Aplikacje natywne są przeznaczone do konkretnej platformy, takiej jak iOS (dla iPhone'a i iPadów) lub Android (dla urządzeń mobilnych). Istnieją również aplikacje natywne dla innych platform, takich jak Windows lub macOS.</i>
+- Aplikacje internetowe działają w przeglądarkach internetowych na różnych platformach (np. przeglądarki internetowe na komputerze, smartfonie lub tablecie).
+- Aplikacje natywne są przeznaczone do konkretnej platformy, takiej jak iOS (dla iPhone'a i iPadów) lub Android (dla urządzeń mobilnych). Istnieją również aplikacje natywne dla innych platform, takich jak Windows lub macOS.
 *Technologie i języki programowania:*
-<i>Aplikacje internetowe są najczęściej tworzone przy użyciu technologii webowych, takich jak HTML, CSS i JavaScript. Mogą również wykorzystywać różne frameworki i biblioteki, takie jak React, Angular lub Vue.js.</i>
-<i>Aplikacje natywne są programowane przy użyciu języków specyficznych dla danej platformy, takich jak Swift i Objective-C dla iOS, oraz Java lub Kotlin dla Androida.</i>
+- Aplikacje internetowe są najczęściej tworzone przy użyciu technologii webowych, takich jak HTML, CSS i JavaScript. Mogą również wykorzystywać różne frameworki i biblioteki, takie jak React, Angular lub Vue.js.
+- Aplikacje natywne są programowane przy użyciu języków specyficznych dla danej platformy, takich jak Swift i Objective-C dla iOS, oraz Java lub Kotlin dla Androida.
 *Dostęp do funkcji urządzenia:*
-<i>Aplikacje internetowe mają ograniczony dostęp do funkcji urządzenia, takich jak kamera, mikrofon czy GPS. Dostęp do tych funkcji jest kontrolowany przez przeglądarkę i użytkownik musi wyrazić zgodę na udzielenie dostępu.</i>
-<i>Aplikacje natywne mają pełen dostęp do funkcji urządzenia i mogą wykorzystywać je bez ograniczeń, co pozwala na tworzenie bardziej zaawansowanych funkcji.</i>
+- Aplikacje internetowe mają ograniczony dostęp do funkcji urządzenia, takich jak kamera, mikrofon czy GPS. Dostęp do tych funkcji jest kontrolowany przez przeglądarkę i użytkownik musi wyrazić zgodę na udzielenie dostępu.
+- Aplikacje natywne mają pełen dostęp do funkcji urządzenia i mogą wykorzystywać je bez ograniczeń, co pozwala na tworzenie bardziej zaawansowanych funkcji.
 *Instalacja i dostępność:*
-<i>Aplikacje internetowe nie wymagają instalacji i są dostępne poprzez przeglądarkę internetową. Użytkownik może po prostu odwiedzić odpowiednią stronę internetową.</i>
-<i>Aplikacje natywne muszą być pobrane i zainstalowane z oficjalnego sklepu z aplikacjami, takiego jak App Store (iOS) lub Google Play (Android).</i>
+- Aplikacje internetowe nie wymagają instalacji i są dostępne poprzez przeglądarkę internetową. Użytkownik może po prostu odwiedzić odpowiednią stronę internetową.
+- Aplikacje natywne muszą być pobrane i zainstalowane z oficjalnego sklepu z aplikacjami, takiego jak App Store (iOS) lub Google Play (Android).
 *Aktualizacje:*
-<i>Aktualizacje aplikacji internetowych są dostępne natychmiast po zmianach na serwerze, co pozwala na szybkie wprowadzanie poprawek i nowych funkcji.</i>
-<i>Aktualizacje aplikacji natywnych muszą być pobrane i zainstalowane przez użytkownika, co może wprowadzić opóźnienie w dostępie do najnowszych wersji.</i>
+- Aktualizacje aplikacji internetowych są dostępne natychmiast po zmianach na serwerze, co pozwala na szybkie wprowadzanie poprawek i nowych funkcji.
+- Aktualizacje aplikacji natywnych muszą być pobrane i zainstalowane przez użytkownika, co może wprowadzić opóźnienie w dostępie do najnowszych wersji.
 *Testowanie:*
-<i>Testowanie aplikacji internetowych często obejmuje testy przeglądarkowe, które sprawdzają zgodność z różnymi przeglądarkami i urządzeniami.</i>
-<i>Testowanie aplikacji natywnych obejmuje testy na konkretnych platformach, takich jak testy na urządzeniach iOS i Android, przy użyciu narzędzi dostarczanych przez producentów systemów operacyjnych.</i></br>
+- Testowanie aplikacji internetowych często obejmuje testy przeglądarkowe, które sprawdzają zgodność z różnymi przeglądarkami i urządzeniami.
+- Testowanie aplikacji natywnych obejmuje testy na konkretnych platformach, takich jak testy na urządzeniach iOS i Android, przy użyciu narzędzi dostarczanych przez producentów systemów operacyjnych.</br>
 Oba rodzaje aplikacji wymagają testów jakościowych i funkcjonalnych, ale metody testowania oraz narzędzia różnią się ze względu na specyfikę każdego rodzaju aplikacji.
 
 
