@@ -88,26 +88,27 @@ W skrócie, pisanie przypadków testowych pomaga w organizacji i kontrolowaniu p
 ## Subtask 1 i 2
 👉 [Kliknij tutaj 😊](https://docs.google.com/spreadsheets/d/1spw-wyhEo8o-eFHWI99EwZuyCuTNtOcYhbJn16EIyS4/edit?usp=sharing)
 ## Subtask 4
-✅ **Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**
+
+✅ **Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?** </br>
 Aplikacja służy jako platforma do sprzedaży/wymianny/oddania dóbr wszelkiego rodzaju przez osoby prywatne oraz firmy, jest to również platforma zajmująca się pośrednictwem pracy dla firm i osób prywatnych.
 Celem aplikacji jest monetyzacja:
 <i>Użytkownicy:</i> poprzez sprzedaż dóbr 
 <i>Inwestorzy:</i> poprzez sprzedaż pakietów płatnych w aplikacji
 
-✅ **Kto ma być użytkownikiem końcowym aplikacji?**
+✅ **Kto ma być użytkownikiem końcowym aplikacji?** </br>
 Użytkownikiem końcowym aplikacji jest każdy kto wystawia ogłoszenie albo jest nabywcą albo poszukuje pracy
 
-✅ **Czy według Ciebie aplikacja jest user friendly?**
+✅ **Czy według Ciebie aplikacja jest user friendly?** </br>
 Moim zdaniem połownicznie. Mimo że wiele funkcji jest intuicyjnych, to sporo rzeczy warto poprawić. 
 
-✅ **Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?**
+✅ **Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?** </br>
 System filtracji jest bardzo słaby i mało rozwinięty. Nie można filtrować rzeczy w najbardziej podstawowy sposób np. Rozmiar, marka, kolor. Sprawia to, że poświęcamy dużo czasu na odnalezienie interesujących nas przedmiotów/dóbr w ogromnej ilości ogłoszeń.
 
-✅ **Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**
+✅ **Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?** </br>
 
 Testowanie aplikacji internetowej (webowej) a natywnej różni się głównie ze względu na rodzaj aplikacji i środowisko, w którym są uruchamiane. Oto niektóre z głównych różnic:
 
-*Platforma docelowa*
+ *Platforma docelowa*
 - Aplikacje internetowe działają w przeglądarkach internetowych na różnych platformach (np. przeglądarki internetowe na komputerze, smartfonie lub tablecie).
 - Aplikacje natywne są przeznaczone do konkretnej platformy, takiej jak iOS (dla iPhone'a i iPadów) lub Android (dla urządzeń mobilnych). Istnieją również aplikacje natywne dla innych platform, takich jak Windows lub macOS.</br></br>
 *Technologie i języki programowania*
