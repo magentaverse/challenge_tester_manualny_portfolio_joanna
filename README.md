@@ -92,8 +92,8 @@ W skrócie, pisanie przypadków testowych pomaga w organizacji i kontrolowaniu p
 ✅ **Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?** </br>
 Aplikacja służy jako platforma do sprzedaży/wymianny/oddania dóbr wszelkiego rodzaju przez osoby prywatne oraz firmy, jest to również platforma zajmująca się pośrednictwem pracy dla firm i osób prywatnych.
 Celem aplikacji jest monetyzacja:
-<i>Użytkownicy:</i> poprzez sprzedaż dóbr 
-<i>Inwestorzy:</i> poprzez sprzedaż pakietów płatnych w aplikacji
+- *Użytkownicy:* poprzez sprzedaż dóbr 
+- *Inwestorzy:* poprzez sprzedaż pakietów płatnych w aplikacji
 
 ✅ **Kto ma być użytkownikiem końcowym aplikacji?** </br>
 Użytkownikiem końcowym aplikacji jest każdy kto wystawia ogłoszenie albo jest nabywcą albo poszukuje pracy
