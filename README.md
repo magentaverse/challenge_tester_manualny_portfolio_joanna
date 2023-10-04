@@ -84,6 +84,51 @@ W skrócie, pisanie przypadków testowych pomaga w organizacji i kontrolowaniu p
 ## Subtask 3 - Test Report
 👉 [Kliknij tutaj 😊](https://docs.google.com/spreadsheets/d/1ldist0q_1kzRJ5eNglwmTcWBmFiQi8AsFJUlnsVydOI/edit?usp=sharing)
 
+# TASK 4
+## Subtask 1 i 2
+👉 [Kliknij tutaj 😊](https://docs.google.com/spreadsheets/d/1spw-wyhEo8o-eFHWI99EwZuyCuTNtOcYhbJn16EIyS4/edit?usp=sharing)
+## Subtask 4
+✅ **Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**
+Aplikacja służy jako platforma do sprzedaży/wymianny/oddania dóbr wszelkiego rodzaju przez osoby prywatne oraz firmy, jest to również platforma zajmująca się pośrednictwem pracy dla firm i osób prywatnych.
+Celem aplikacji jest monetyzacja:
+<i>Użytkownicy:</i> poprzez sprzedaż dóbr 
+<i>Inwestorzy:</i> poprzez sprzedaż pakietów płatnych w aplikacji
+
+✅ **Kto ma być użytkownikiem końcowym aplikacji?**
+Użytkownikiem końcowym aplikacji jest każdy kto wystawia ogłoszenie albo jest nabywcą albo poszukuje pracy
+
+✅ **Czy według Ciebie aplikacja jest user friendly?**
+Moim zdaniem połownicznie. Mimo że wiele funkcji jest intuicyjnych, to sporo rzeczy warto poprawić. 
+
+✅ **Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?**
+System filtracji jest bardzo słaby i mało rozwinięty. Nie można filtrować rzeczy w najbardziej podstawowy sposób np. Rozmiar, marka, kolor. Sprawia to, że poświęcamy dużo czasu na odnalezienie interesujących nas przedmiotów/dóbr w ogromnej ilości ogłoszeń.
+
+✅ **Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**
+
+Testowanie aplikacji internetowej (webowej) a natywnej różni się głównie ze względu na rodzaj aplikacji i środowisko, w którym są uruchamiane. Oto niektóre z głównych różnic:
+
+*Platforma docelowa:*
+<i>Aplikacje internetowe działają w przeglądarkach internetowych na różnych platformach (np. przeglądarki internetowe na komputerze, smartfonie lub tablecie).</i>
+<i>Aplikacje natywne są przeznaczone do konkretnej platformy, takiej jak iOS (dla iPhone'a i iPadów) lub Android (dla urządzeń mobilnych). Istnieją również aplikacje natywne dla innych platform, takich jak Windows lub macOS.</i>
+*Technologie i języki programowania:*
+<i>Aplikacje internetowe są najczęściej tworzone przy użyciu technologii webowych, takich jak HTML, CSS i JavaScript. Mogą również wykorzystywać różne frameworki i biblioteki, takie jak React, Angular lub Vue.js.</i>
+<i>Aplikacje natywne są programowane przy użyciu języków specyficznych dla danej platformy, takich jak Swift i Objective-C dla iOS, oraz Java lub Kotlin dla Androida.</i>
+*Dostęp do funkcji urządzenia:*
+<i>Aplikacje internetowe mają ograniczony dostęp do funkcji urządzenia, takich jak kamera, mikrofon czy GPS. Dostęp do tych funkcji jest kontrolowany przez przeglądarkę i użytkownik musi wyrazić zgodę na udzielenie dostępu.</i>
+<i>Aplikacje natywne mają pełen dostęp do funkcji urządzenia i mogą wykorzystywać je bez ograniczeń, co pozwala na tworzenie bardziej zaawansowanych funkcji.</i>
+*Instalacja i dostępność:*
+<i>Aplikacje internetowe nie wymagają instalacji i są dostępne poprzez przeglądarkę internetową. Użytkownik może po prostu odwiedzić odpowiednią stronę internetową.</i>
+<i>Aplikacje natywne muszą być pobrane i zainstalowane z oficjalnego sklepu z aplikacjami, takiego jak App Store (iOS) lub Google Play (Android).</i>
+*Aktualizacje:*
+<i>Aktualizacje aplikacji internetowych są dostępne natychmiast po zmianach na serwerze, co pozwala na szybkie wprowadzanie poprawek i nowych funkcji.</i>
+<i>Aktualizacje aplikacji natywnych muszą być pobrane i zainstalowane przez użytkownika, co może wprowadzić opóźnienie w dostępie do najnowszych wersji.</i>
+*Testowanie:*
+<i>Testowanie aplikacji internetowych często obejmuje testy przeglądarkowe, które sprawdzają zgodność z różnymi przeglądarkami i urządzeniami.</i>
+<i>Testowanie aplikacji natywnych obejmuje testy na konkretnych platformach, takich jak testy na urządzeniach iOS i Android, przy użyciu narzędzi dostarczanych przez producentów systemów operacyjnych.</i></br>
+Oba rodzaje aplikacji wymagają testów jakościowych i funkcjonalnych, ale metody testowania oraz narzędzia różnią się ze względu na specyfikę każdego rodzaju aplikacji.
+
+
+
 
 
 
