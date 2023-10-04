@@ -106,7 +106,7 @@ System filtracji jest bardzo słaby i mało rozwinięty. Nie można filtrować r
 
 ✅ **Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?** </br>
 
-Testowanie aplikacji internetowej (webowej) a natywnej różni się głównie ze względu na rodzaj aplikacji i środowisko, w którym są uruchamiane. Oto niektóre z głównych różnic:
+Testowanie aplikacji internetowej (webowej) a natywnej różni się głównie ze względu na rodzaj aplikacji i środowisko, w którym są uruchamiane. Oto niektóre z głównych różnic:</br>
 
  *Platforma docelowa*
 - Aplikacje internetowe działają w przeglądarkach internetowych na różnych platformach (np. przeglądarki internetowe na komputerze, smartfonie lub tablecie).
