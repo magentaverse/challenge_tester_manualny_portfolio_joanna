@@ -147,7 +147,7 @@ Wykorzystałam następujące linki do nauki 📚
 
 A nauczyłam się tego:
 
-```select  from table_name``` do wyświetlenia/wybrania wszystkich rekordów dla danej tabeli
+|​-```select  from table_name``` do wyświetlenia/wybrania wszystkich rekordów dla danej tabeli
 
 ```select column_name from table_name``` do wybrania wszystkich rekordów z kolumny o danej nazwie dla danej tabeli
 
@@ -171,7 +171,7 @@ A nauczyłam się tego:
 
 ```select  from table_name where column_name='gr[!a-k]%``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków)
 
-```select column_nam1e, column_name2, column_name3 from table_name order by column_name='gr[!a-k]%``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków)
+```select column_nam1e, column_name2, column_name3 from table_name order by column_name='gr[!a-k]%``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków) ​-|
 
 Poza tym przećwiczyłam następujące komendy:
 
@@ -191,63 +191,63 @@ Poza tym przećwiczyłam następujące komendy:
 
 ## Subtask 3 - Kilka zadań na rozgrzewkę, czyli sprawdzenie wiedzy w praktyce!
 
-1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+**1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 
 SELECT * FROM actors order by surname ASC
 
 <img width="249" alt="Screenshot 2023-10-11 at 12 28 47" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/fad89437-6856-4e2b-b319-09519e8581cd">
 
-2. Wyświetl film, który powstał w 2019 roku.
+**2. Wyświetl film, który powstał w 2019 roku.**
 
 SELECT * FROM movies where year_of_production=2019
 
 <img width="320" alt="Screenshot 2023-10-11 at 12 31 21" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/99bf5cb5-f021-46e1-91de-26ef13df1a83">
 
 
-3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+**3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
 
 SELECT * FROM movies where year_of_production between 1900 and 1999
 
 <img width="484" alt="Screenshot 2023-10-11 at 12 31 50" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/8f501e54-51a9-4701-9bce-52429cd10efc">
 
 
-4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
+**4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.**
 
 SELECT title, price FROM movies WHERE price < 7
 
 <img width="287" alt="Screenshot 2023-10-11 at 12 32 18" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/bb72697a-1af7-435b-9874-110e6ed282de">
 
-5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+**5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**
 
 SELECT * FROM actors WHERE actor_id > 3 and actor_id < 8
 
 <img width="248" alt="Screenshot 2023-10-11 at 12 32 55" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/33c5735b-3f37-498c-bad7-764b7af09eaa">
 
-6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+**6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
 
 SELECT * FROM customers WHERE customer_id=2 or customer_id=4 or customer_id=6
 
 <img width="346" alt="Screenshot 2023-10-11 at 12 33 20" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/66793fba-85f3-4d9a-b287-1437ee7a1fce">
 
-7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+**7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
 
 SELECT * FROM customers WHERE customer_id in (1,3,5)
 
 <img width="342" alt="Screenshot 2023-10-11 at 12 33 48" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/b50e86be-a2cb-4e21-86af-05086fa269dd">
 
-8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+**8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
 
 SELECT * FROM actors WHERE name like 'an%'
 
 <img width="205" alt="Screenshot 2023-10-11 at 12 34 31" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/06f298b7-4127-44ff-a396-6adc8f3997dc">
 
-9. Wyświetl dane klienta, który nie ma podanego adresu email.
+**9. Wyświetl dane klienta, który nie ma podanego adresu email.**
 
 SELECT * FROM customers WHERE email is null
 
 <img width="298" alt="Screenshot 2023-10-11 at 12 35 01" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/d8f7c43e-2441-4484-82f4-17efa36f3107">
 
-**10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+**10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
 
 SELECT * FROM movies WHERE price > 9 and movie_id between 2 and 8
 
