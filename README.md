@@ -147,7 +147,7 @@ Wykorzystałam następujące linki do nauki 📚
 
 A nauczyłam się tego:
 
-|​-```select  from table_name``` do wyświetlenia/wybrania wszystkich rekordów dla danej tabeli
+|​= ```select  from table_name``` do wyświetlenia/wybrania wszystkich rekordów dla danej tabeli
 
 ```select column_name from table_name``` do wybrania wszystkich rekordów z kolumny o danej nazwie dla danej tabeli
 
@@ -171,7 +171,7 @@ A nauczyłam się tego:
 
 ```select  from table_name where column_name='gr[!a-k]%``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków)
 
-```select column_nam1e, column_name2, column_name3 from table_name order by column_name='gr[!a-k]%``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków) ​-|
+```select column_nam1e, column_name2, column_name3 from table_name order by column_name='gr[!a-k]%``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków) ​=|
 
 Poza tym przećwiczyłam następujące komendy:
 
