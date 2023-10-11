@@ -128,6 +128,24 @@ Testowanie aplikacji internetowej (webowej) a natywnej różni się głównie ze
 - Testowanie aplikacji natywnych obejmuje testy na konkretnych platformach, takich jak testy na urządzeniach iOS i Android, przy użyciu narzędzi dostarczanych przez producentów systemów operacyjnych.</br></br>
 Oba rodzaje aplikacji wymagają testów jakościowych i funkcjonalnych, ale metody testowania oraz narzędzia różnią się ze względu na specyfikę każdego rodzaju aplikacji.
 
+# TASK 5
+## Subtask 1 - Krótki kurs podstaw SQL
+
+Wykorzystałam następujące linki do nauki 📚
+
+✅  https://www.w3schools.com/sql/
+
+✅ https://www.cognity.pl/top-50-zapytan-sql,blog,390.html
+
+✅ https://bulldogjob.pl/readme/dlaczego-warto-uczyc-sie-sql
+
+✅ https://epicdigitalguy.com/blog/2020/07/24/mysql-cheat-sheet/
+
+✅ https://www.kursysql.pl/sql-w-120-minut/
+
+✅ https://tomaszkenig.pl/kurs-sql-server/operatory-logiczne-w-sql-server/
+
+
 
 
 
