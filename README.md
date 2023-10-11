@@ -147,31 +147,31 @@ Wykorzystałam następujące linki do nauki 📚
 
 A nauczyłam się tego:
 
-```select  from table_name do wyświetlenia/wybrania``` wszystkich rekordów dla danej tabeli
+```select  from table_name``` do wyświetlenia/wybrania wszystkich rekordów dla danej tabeli
 
-select column_name from table_name do wybrania wszystkich rekordów z kolumny o danej nazwie dla danej tabeli
+```select column_name from table_name``` do wybrania wszystkich rekordów z kolumny o danej nazwie dla danej tabeli
 
-select distinct column_name from table_name do wybrania różnych rekordów w danej kolumnie w danej tabeli
+```select distinct column_name from table_name``` do wybrania różnych rekordów w danej kolumnie w danej tabeli
 
-select  from table_name where column_name='nazwa' do wybrania wszystkich rekordów o określonej nazwie z danej kolumny w danej tabeli
+```select  from table_name where column_name='nazwa'``` do wybrania wszystkich rekordów o określonej nazwie z danej kolumny w danej tabeli
 
-select  from table_name where not column_name='nazwa' do wybrania wszystkich rekordów poza tymi o określonej nazwie z danej kolumny w danej tabeli
+```select  from table_name where not column_name='nazwa'``` do wybrania wszystkich rekordów poza tymi o określonej nazwie z danej kolumny w danej tabeli
 
-select  from table_name where column_name=1 do wybrania wszystkich rekordów danej kolumny w danej tabeli o wartości 1
+```select  from table_name where column_name=1``` do wybrania wszystkich rekordów danej kolumny w danej tabeli o wartości 1
 
-select  from table_name where column_name=[1-90] do wybrania wszystkich rekordów danej kolumny w danej tabeli o wartości między 1 a 90
+```select  from table_name where column_name=[1-90]``` do wybrania wszystkich rekordów danej kolumny w danej tabeli o wartości między 1 a 90
 
-select  from table_name where column_name='%t do wybrania wszystkich rekordów danej kolumny w danej tabeli kończących się na t
+```select  from table_name where column_name='%t``` do wybrania wszystkich rekordów danej kolumny w danej tabeli kończących się na t
 
-select  from table_name where column_name='t% do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynających się na t
+```select  from table_name where column_name='t%``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynających się na t
 
-select  from table_name where column_name='t%z do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynających się na t i kończących się na z
+```select  from table_name where column_name='t%z``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynających się na t i kończących się na z
 
-select  from table_name where column_name='____ do wybrania wszystkich rekordów danej kolumny w danej tabeli o 4 znakach literowych
+```select  from table_name where column_name='____``` do wybrania wszystkich rekordów danej kolumny w danej tabeli o 4 znakach literowych
 
-select  from table_name where column_name='gr[!a-k]% do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków)
+```select  from table_name where column_name='gr[!a-k]%``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków)
 
-select column_nam1e, column_name2, column_name3 from table_name order by column_name='gr[!a-k]% do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków)
+```select column_nam1e, column_name2, column_name3 from table_name order by column_name='gr[!a-k]%``` do wybrania wszystkich rekordów danej kolumny w danej tabeli zaczynającyh się od gr, w których następnym znakiem nie jest żadna litera z zakresu a-k, oraz która po tym może mieć dowolną liczbę znaków (włączając w to brak kolejnych znaków)
 
 Poza tym przećwiczyłam następujące komendy:
 
@@ -188,6 +188,70 @@ Poza tym przećwiczyłam następujące komendy:
 - select * as *
 
 ## Subtask 2 - Konfiguracja środowiska i wgranie bazy danych - DONE! ✔
+
+## Subtask 3 - Kilka zadań na rozgrzewkę, czyli sprawdzenie wiedzy w praktyce!
+
+1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+
+SELECT * FROM actors order by surname ASC
+
+image
+
+2. Wyświetl film, który powstał w 2019 roku.
+
+SELECT * FROM movies where year_of_production=2019
+
+image
+
+3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+SELECT * FROM movies where year_of_production between 1900 and 1999
+
+image
+
+4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
+
+SELECT title, price FROM movies WHERE price < 7
+
+image
+
+5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+
+SELECT * FROM actors WHERE actor_id > 3 and actor_id < 8
+
+image
+
+6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+SELECT * FROM customers WHERE customer_id=2 or customer_id=4 or customer_id=6
+
+image
+
+7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+SELECT * FROM customers WHERE customer_id in (1,3,5)
+
+image
+
+8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+SELECT * FROM actors WHERE name like 'an%'
+
+image
+
+9. Wyświetl dane klienta, który nie ma podanego adresu email.
+
+SELECT * FROM customers WHERE email is null
+
+image
+
+10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+SELECT * FROM movies WHERE price > 9 and movie_id between 2 and 8
+
+image
+
+💖💥🙏🐇
 
 
 
