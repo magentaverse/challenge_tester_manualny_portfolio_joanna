@@ -195,7 +195,7 @@ Poza tym przećwiczyłam następujące komendy:
 
 SELECT * FROM actors order by surname ASC
 
-image
+<img width="249" alt="Screenshot 2023-10-11 at 12 28 47" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/fad89437-6856-4e2b-b319-09519e8581cd">
 
 2. Wyświetl film, który powstał w 2019 roku.
 
