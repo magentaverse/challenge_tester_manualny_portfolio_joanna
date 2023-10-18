@@ -330,9 +330,9 @@ Pytania z zakresu certyfikacji ISTQB, quiz ECRU<br>
 👉 [Kliknij tutaj 😊](https://getistqb.com/quiz-ecru/)<br>
 **Punkty: 15/15**
 
+---
 
-
-## KONIWCZNIE SPRAWDŹ MOJE [PORTFOLIO](https://github.com/magentaverse/Portfolio/blob/main/README.md)❤️‍🔥
+## KONIECZNIE SPRAWDŹ MOJE [PORTFOLIO](https://github.com/magentaverse/Portfolio/blob/main/README.md)❤️‍🔥
 
 
 
