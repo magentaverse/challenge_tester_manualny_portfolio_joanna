@@ -332,7 +332,7 @@ Pytania z zakresu certyfikacji ISTQB, quiz ECRU<br>
 
 
 
-
+## KONIWCZNIE SPRAWDŹ MOJE [PORTFOLIO](https://github.com/magentaverse/Portfolio/blob/main/README.md)❤️‍🔥
 
 
 
