@@ -1,4 +1,4 @@
-# TASK 1
+# Task 1️⃣
 ## Subtask 1
 **Punkty: 10/10**
 
@@ -52,7 +52,7 @@ Pozdrawiam Was serdecznie!
 
 👉 Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. 
 
-# TASK 2
+# Task 2️⃣
 
 ## Subtask 1 i 2 
 👉 [Kliknij tutaj 😊](https://drive.google.com/drive/folders/1snzV8IcBCjplSbxOPZC7yczg_8Y6oeDv?usp=drive_link)
@@ -76,7 +76,7 @@ Testerzy piszą przypadki testowe, aby:
 
 W skrócie, pisanie przypadków testowych pomaga w organizacji i kontrolowaniu procesu testowania, zapewniając lepszą jakość oprogramowania i zmniejszając ryzyko błędów.
 
-# TASK 3
+# Task 3️⃣
 ## Subtask 1 - Bug Report
 👉 [Kliknij tutaj 😊](https://docs.google.com/spreadsheets/d/1E7mOC44nr_rsmfAjHgEcJGuP4UFl9JiBUO2BoCP3iM4/edit?usp=sharing)
 ## Subtask 2 - Test Cases
@@ -84,7 +84,7 @@ W skrócie, pisanie przypadków testowych pomaga w organizacji i kontrolowaniu p
 ## Subtask 3 - Test Report
 👉 [Kliknij tutaj 😊](https://docs.google.com/spreadsheets/d/1ldist0q_1kzRJ5eNglwmTcWBmFiQi8AsFJUlnsVydOI/edit?usp=sharing)
 
-# TASK 4
+# Task 4️⃣
 ## Subtask 1 i 2
 👉 [Kliknij tutaj 😊](https://docs.google.com/spreadsheets/d/1spw-wyhEo8o-eFHWI99EwZuyCuTNtOcYhbJn16EIyS4/edit?usp=sharing)
 ## Subtask 4
@@ -128,7 +128,7 @@ Testowanie aplikacji internetowej (webowej) a natywnej różni się głównie ze
 - Testowanie aplikacji natywnych obejmuje testy na konkretnych platformach, takich jak testy na urządzeniach iOS i Android, przy użyciu narzędzi dostarczanych przez producentów systemów operacyjnych.</br></br>
 Oba rodzaje aplikacji wymagają testów jakościowych i funkcjonalnych, ale metody testowania oraz narzędzia różnią się ze względu na specyfikę każdego rodzaju aplikacji.
 
-# TASK 5
+# Task 5️⃣
 ## Subtask 1 - Krótki kurs podstaw SQL
 
 Wykorzystałam następujące linki do nauki 📚
@@ -325,6 +325,10 @@ SELECT actors.name, actors.surname, movies.title from actors inner join cast on 
 
 **20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**
 
+## Subtask 2
+Pytania z zakresu certyfikacji ISTQB, quiz ECRU
+👉 [Kliknij tutaj 😊](https://getistqb.com/quiz-ecru/)
+**Punkty: 15/15**
 
 
 
