@@ -326,8 +326,8 @@ SELECT actors.name, actors.surname, movies.title from actors inner join cast on 
 **20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**
 
 ## Subtask 2
-Pytania z zakresu certyfikacji ISTQB, quiz ECRU
-👉 [Kliknij tutaj 😊](https://getistqb.com/quiz-ecru/)
+Pytania z zakresu certyfikacji ISTQB, quiz ECRU<br>
+👉 [Kliknij tutaj 😊](https://getistqb.com/quiz-ecru/)<br>
 **Punkty: 15/15**
 
 
