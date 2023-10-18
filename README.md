@@ -268,39 +268,39 @@ SELECT * FROM movies WHERE price > 9 and movie_id between 2 and 8
 
 update customers set surname = 'miler' where name = 'ania'
 
-<img width="550" alt="Zrzut ekranu 2023-10-18 o 16 08 09" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/5cee947f-0387-4de1-9349-62357c84158e">
+<img width="550" alt="Zrzut ekranu 2023-10-18 o 16 08 09" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/5cee947f-0387-4de1-9349-62357c84158e"><br><br>
 
 
 **12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
 
 select sale.customer_id, sale.movie_id, customers.email, customers.name from customers inner join sale on customers.customer_id=sale.customer_id where movie_id=4
 
-<img width="332" alt="Zrzut ekranu 2023-10-18 o 16 08 15" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/7a0ea89b-c813-458a-b471-fd8c3311ea40">
+<img width="332" alt="Zrzut ekranu 2023-10-18 o 16 08 15" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/7a0ea89b-c813-458a-b471-fd8c3311ea40"><br><br>
 
 **13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
 
 update customers set email='pati@mail.com' where name='Patrycja'
 
 
-<img width="526" alt="Zrzut ekranu 2023-10-18 o 16 08 21" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/754c6aa9-5e76-4317-a154-8ffa94637be6">
+<img width="526" alt="Zrzut ekranu 2023-10-18 o 16 08 21" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/754c6aa9-5e76-4317-a154-8ffa94637be6"><br><br>
 
 **14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
 
 SELECT sale.customer_id, sale.movie_id, movies.title, customers.name, customers.surname from sale inner join movies on sale.movie_id=movies.movie_id inner join customers on sale.customer_id=customers.customer_id
 
-<img width="541" alt="Zrzut ekranu 2023-10-18 o 16 08 28" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/5202bc73-435d-4de9-9791-702bb41c618e">
+<img width="541" alt="Zrzut ekranu 2023-10-18 o 16 08 28" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/5202bc73-435d-4de9-9791-702bb41c618e"><br><br>
 
 **15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
 
 alter table customers add pseudonym char(3)
 
-<img width="835" alt="Zrzut ekranu 2023-10-18 o 16 08 43" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/14431f60-c21e-4522-94fe-1334e5c80378">
+<img width="835" alt="Zrzut ekranu 2023-10-18 o 16 08 43" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/14431f60-c21e-4522-94fe-1334e5c80378"><br><br>
 
 **16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
 SELECT DISTINCT movies.title FROM movies INNER JOIN sale ON sale.movie_id = movies.movie_id;
 
-<img width="237" alt="Zrzut ekranu 2023-10-18 o 16 08 52" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/20cbed72-5d85-42ed-8577-eb1828d5a07a">
+<img width="237" alt="Zrzut ekranu 2023-10-18 o 16 08 52" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/20cbed72-5d85-42ed-8577-eb1828d5a07a"><br><br>
 
 
 **17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**
@@ -308,20 +308,20 @@ SELECT DISTINCT movies.title FROM movies INNER JOIN sale ON sale.movie_id = movi
 SELECT name FROM actors UNION SELECT name FROM customers order by name asc
 
 
-<img width="87" alt="Zrzut ekranu 2023-10-18 o 16 08 57" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/7b4e775b-81b4-468d-93e9-fabb3bec5d7d">
+<img width="87" alt="Zrzut ekranu 2023-10-18 o 16 08 57" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/7b4e775b-81b4-468d-93e9-fabb3bec5d7d"><br><br>
 
 **18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
 
 UPDATE movies set price = price + 2.5 WHERE movies.year_of_production > 2000
 
 
-<img width="777" alt="Zrzut ekranu 2023-10-18 o 16 09 06" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/d71ab358-193a-48f2-b4ce-d68b6bd9dbc7">
+<img width="777" alt="Zrzut ekranu 2023-10-18 o 16 09 06" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/d71ab358-193a-48f2-b4ce-d68b6bd9dbc7"><br><br>
 
 **19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**
 
 SELECT actors.name, actors.surname, movies.title from actors inner join cast on actors.actor_id=cast.actor_id inner join movies on cast.movie_id=movies.movie_id where actors.actor_id=4
 
-<img width="209" alt="Zrzut ekranu 2023-10-18 o 16 09 20" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/1ddc055a-493f-4abf-913d-09302882a15c">
+<img width="209" alt="Zrzut ekranu 2023-10-18 o 16 09 20" src="https://github.com/magentaverse/challenge_tester_manualny_portfolio_joanna/assets/125647206/1ddc055a-493f-4abf-913d-09302882a15c"><br><br>
 
 **20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**
 
